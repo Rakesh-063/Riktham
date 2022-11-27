@@ -1,0 +1,54 @@
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="style.css" />
+        <script>
+            // function valid(){
+            //     var f=document.getElementById("fname").value;
+            //     var p=document.getElementById("psw").value;
+            //     var ei=document.getElementById("em").value;
+            //     var p1=document.getElementById("cpsw").value;
+            //     var refl=/[A-Z]/;
+            //     var reei=/[a-z]@[a-z]*.com/;
+            //     var text="";
+            //     if(!refl.test(f)){
+            //        text=false;
+            //         // return;
+            //     }
+            //     if(p.length<=8){
+            //         text=false;
+            //         // return;
+            //     }
+            //     if(p!=p1){
+            //         text=false;
+            //         // return;
+            //     }
+            //     if(!reei.test(ei)){
+            //         text=false;
+            //         // return;
+            //     }
+            //     if(!text)alert("Fill the correct details")
+            // }
+        </script>
+    </head>
+    <body>
+        <div class='bold-line'></div>
+            <div class='container'>
+                 <div class='window'>
+                    <div class='overlay'></div>
+                    <div class='content'>
+                        <div class='welcome'>Registration</div>
+                        <div class='input-fields'>
+                            <form action="datapush.php" method="POST">
+                            <input type='text' placeholder='Full Name' class='input-line full-width' name="fname" id="fname"></input>
+                            <input type='email' placeholder='Email' class='input-line full-width' name="em" id="em"></input>
+                            <input type='password' placeholder='Password' class='input-line full-width' name="psw" id="psw"></input>
+                            <input type='password' placeholder='Confirm Password' class='input-line full-width' id="cpsw"></input>
+                            <div><button class='ghost-round full-width' >Create Account</button></div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
